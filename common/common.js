@@ -13,7 +13,7 @@ $('.toTop').click(function() {
 
 // header burger
 
-$(".online-bank__btn").click(function(){
+$(".nav__login").click(function(){
 	$(".hide-menu").fadeIn()
 })
 $(".hide-menu-close").click(function(){

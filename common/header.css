@@ -1,7 +1,6 @@
 @font-face {
     font-family: Montserrat-Black;
     src: url(../common/font/Montserrat-Black.ttf);
-
 }
 
 body {
@@ -41,7 +40,7 @@ a {
 }
 
 .toTop:hover {
-    background-color: #0f365a;
+    background-color: #e43243;
 }
 
 .toTop::after {
@@ -250,7 +249,7 @@ a {
 }
 
 .nav__login:hover {
-    color: #0f365a;
+    color: #e43243;
 }
 
 .nav-language {
@@ -272,7 +271,7 @@ a {
 }
 
 .nav-language__text:hover {
-    color: #0f365a;
+    color: #e43243;
 }
 
 .nav-language-wrap {
@@ -362,6 +361,7 @@ a {
     padding: 10px 50px;
     border-radius: 150px;
     font-size: 24px;
+    margin-top: 60px;
 }
 .header-caption__text{
     opacity: 0;
@@ -410,11 +410,6 @@ a {
     color: transparent;
 }
 
-.header-requisites {
-    font-size: 12px;
-    letter-spacing: 4%;
-    z-index: 1;
-}
 
 .header-requisites_swift {
     margin-right: 20px;
@@ -426,12 +421,12 @@ a {
 }
 
 .header-requisites_giin:hover {
-    color: #0f365a;
+    color: #e43243;
 }
 
 .nav-wrap__item_active {
-    border-top: 2px solid #0f365a;
-    border-bottom: 2px solid #0f365a;
+    border-top: 2px solid #e43243;
+    border-bottom: 2px solid #e43243;
 }
 
 .hide-menu {
@@ -443,7 +438,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 2;
+    z-index: 12;
     background-color: rgba(106, 106, 106, .95);
     overflow-y: none;
 }
@@ -578,8 +573,15 @@ a {
     height: 70px;
     -webkit-box-shadow: 0 -1px 0 rgba(207, 207, 207, 0.75), inset 0.5px 0.9px 0 white;
     box-shadow: 0 -1px 0 rgba(207, 207, 207, 0.75), inset 0.5px 0.9px 0 white;
+    align-items: center;
 }
-
+.hide-menu-btn-block__link{
+    color:#e43243;
+    margin-left:25px;
+}
+.hide-menu-btn-block__link:hover{
+    text-decoration: underline;
+}
 .hide-menu-btn-block__btn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -587,21 +589,21 @@ a {
     height: 35px;
     padding: 0 35px;
     background-color: rgb(229, 229, 229);
-    background-image: -webkit-linear-gradient(top, #3e5eee, #0f365a);
-    border: 1px solid #0f365a;
+    background-image: -webkit-linear-gradient(top, #e43243,  #c41425);
+    border: 1px solid #e43243;
     border-radius: 4px;
     color: rgb(243, 243, 243);
     font-size: 16px;
     font-weight: 400;
     margin: auto;
-    margin-top: 25px;
+
     cursor: pointer;
     -webkit-transition: all 1s;
     transition: all 1s;
 }
 
 .hide-menu-btn-block__btn:active {
-    background-image: -webkit-linear-gradient(top, #3e5eee, #0f365a);
+    background-image: -webkit-linear-gradient(top, #e43243, #e43243);
 }
 
 input:focus {
@@ -611,7 +613,7 @@ input:focus {
 .registration {
     display: none;
     position: fixed;
-    z-index: 3;
+    z-index: 13;
     width: 100%;
     height: 100%;
     top: 0;
